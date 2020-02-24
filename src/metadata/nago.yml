@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/nago
+
+idspace: NAGO
+base_url: /obo/nago
+
+products:
+- nago.owl: https://raw.githubusercontent.com/hseifert/nago/master/nago.owl
+- nago.obo: https://raw.githubusercontent.com/hseifert/nago/master/nago.obo
+
+term_browser: ontobee
+example_terms:
+- nago_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/hseifert/nago/v
+
+- prefix: /tracker/
+  replacement: https://github.com/hseifert/nago/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/NAGO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/hseifert/nago/master/
