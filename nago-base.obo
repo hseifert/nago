@@ -1,0 +1,12 @@
+format-version: 1.2
+data-version: nago/releases/2020-02-24/nago-base.owl
+ontology: nago/nago-base
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Nagoya ontology" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
+property_value: http://purl.org/dc/terms/license "Unspecified" xsd:string
+
+[Term]
+id: NAGO:00000000
+name: root node
+
