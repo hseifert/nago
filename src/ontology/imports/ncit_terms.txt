@@ -2,3 +2,4 @@ NCIT_C125891 ## signatory
 NCIT_C42651 ## protocol
 NCIT_C19498 ## document
 NCIT_C52469 ## synonym
+NCIT_C89811 ## territory
