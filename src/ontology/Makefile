@@ -67,7 +67,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  envo iao ro ncbitaxon
+IMPORTS =  envo iao ro ncbitaxon bfo ncit
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
@@ -272,6 +272,7 @@ mirror/ro.owl: mirror/ro.trigger
 
 .PRECIOUS: mirror/%.owl
 
+
 ## ONTOLOGY: ncbitaxon
 ## Copy of ncbitaxon is re-downloaded whenever source changes
 mirror/ncbitaxon.trigger: $(SRC)
@@ -281,6 +282,25 @@ mirror/ncbitaxon.owl: mirror/ncbitaxon.trigger
 
 .PRECIOUS: mirror/%.owl
 
+
+## ONTOLOGY: bfo
+## Copy of bfo is re-downloaded whenever source changes
+mirror/bfo.trigger: $(SRC)
+
+mirror/bfo.owl: mirror/bfo.trigger
+        @if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bfo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: ncit
+## Copy of ncit is re-downloaded whenever source changes
+mirror/ncit.trigger: $(SRC)
+
+mirror/ncit.owl: mirror/ncit.trigger
+        @if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ncit.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
 
 
 # ----------------------------------------

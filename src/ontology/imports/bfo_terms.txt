@@ -1,0 +1,4 @@
+BFO:0000029 ## site
+BFO:0000023 ## role
+BFO:0000054 ## realized in
+
