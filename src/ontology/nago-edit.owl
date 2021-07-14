@@ -1,39 +1,138 @@
-
 Prefix(:=<http://purl.obolibrary.org/obo/nago.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/nago.owl>
-
 Import(<http://purl.obolibrary.org/obo/nago/imports/envo_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/nago/imports/iao_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/nago/imports/ro_import.owl>)
-
-
-
+Annotation(dce:description "None")
 Annotation(dce:title "Nagoya ontology")
 Annotation(dcterms:license "Unspecified")
-Annotation(dce:description "None")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000000>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q13353>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q165783>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q18221>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q220982>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q23635>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q25228>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q25230>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q25305>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q34497>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q35086>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q35672>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q5785>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q785>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q18221/NAGO_00000007>))
+Declaration(AnnotationProperty(dce:date))
+Declaration(AnnotationProperty(dce:description))
+Declaration(AnnotationProperty(dce:title))
+Declaration(AnnotationProperty(dcterms:license))
 
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/NAGO_00000000>
+# Class: <http://purl.obolibrary.org/obo/NAGO_00000000> (root node)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000000> "root node"@en)
 
 
-)
+############################
+#   Named Individuals
+############################
 
+# Individual: <https://www.wikidata.org/wiki/Q13353> (Montserrat)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q13353> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q13353> "2021-07-14T12:21:57Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q13353> "Montserrat")
+
+# Individual: <https://www.wikidata.org/wiki/Q165783> (British Antarctic Territory)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q165783> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q165783> "2021-07-14T12:17:52Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q165783> "British Antarctic Territory")
+
+# Individual: <https://www.wikidata.org/wiki/Q18221> (Turks and Caicos Islands)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q18221> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q18221> "2021-07-14T12:11:46Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q18221> "Turks and Caicos Islands")
+
+# Individual: <https://www.wikidata.org/wiki/Q220982> (Tristan da Cunha)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q220982> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q220982> "2021-07-14T12:05:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q220982> "Tristan da Cunha"@en)
+
+# Individual: <https://www.wikidata.org/wiki/Q23635> (Bermuda)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q23635> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q23635> "2021-07-14T12:07:48Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q23635> "Bermuda")
+
+# Individual: <https://www.wikidata.org/wiki/Q25228> (Anguilla)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q25228> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q25228> "2021-07-14T12:06:27Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q25228> "Anguilla"@en)
+
+# Individual: <https://www.wikidata.org/wiki/Q25230> (Bailiwick of Guernsey)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q25230> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q25230> "2021-07-14T12:01:59Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q25230> "Bailiwick of Guernsey"@en)
+
+# Individual: <https://www.wikidata.org/wiki/Q25305> (British Virgin Islands)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q25305> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q25305> "2021-07-14T12:13:08Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q25305> "British Virgin Islands"@en)
+
+# Individual: <https://www.wikidata.org/wiki/Q34497> (St. Helena)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q34497> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q34497> "2021-07-14T12:04:59Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q34497> "St. Helena"@en)
+
+# Individual: <https://www.wikidata.org/wiki/Q35086> (South Georgia and South Sandwich Islands)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q35086> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q35086> "2021-07-14T12:16:12Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q35086> "South Georgia and South Sandwich Islands")
+
+# Individual: <https://www.wikidata.org/wiki/Q35672> (Pitcairn, Ducie, Henderson and Oeno Islands)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q35672> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q35672> "2021-07-14T17:27:36Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q35672> "Pitcairn, Ducie, Henderson and Oeno Islands")
+
+# Individual: <https://www.wikidata.org/wiki/Q5785> (Cayman Islands)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q5785> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q5785> "2021-07-14T12:23:04Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q5785> "Cayman Islands")
+
+# Individual: <https://www.wikidata.org/wiki/Q785> (Bailiwick of Jersey)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q785> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q785> "2021-07-14T11:59:34Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q785> "Bailiwick of Jersey"@en)
+
+# Individual: <https://www.wikidata.org/wiki/Q18221/NAGO_00000007> (Falkland Islands)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q18221/NAGO_00000007> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q18221/NAGO_00000007> "2021-07-14T12:14:09Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q18221/NAGO_00000007> "Falkland Islands"@en)
+
+
+)
