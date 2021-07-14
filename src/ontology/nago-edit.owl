@@ -17,7 +17,17 @@ Annotation(dce:title "Nagoya ontology")
 Annotation(dcterms:license "Unspecified")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000000>))
+Declaration(Class(<https://www.wikidata.org/wiki/Q132050>))
 Declaration(Class(<https://www.wikidata.org/wiki/Q161243>))
+Declaration(Class(<https://www.wikidata.org/wiki/Q1788820>))
+Declaration(Class(<https://www.wikidata.org/wiki/Q185086>))
+Declaration(Class(<https://www.wikidata.org/wiki/Q192350>))
+Declaration(Class(<https://www.wikidata.org/wiki/Q417633>))
+Declaration(Class(<https://www.wikidata.org/wiki/Q46395>))
+Declaration(Class(<https://www.wikidata.org/wiki/Q48352>))
+Declaration(Class(<https://www.wikidata.org/wiki/Q524778>))
+Declaration(Class(<https://www.wikidata.org/wiki/Q85776190>))
+Declaration(Class(<https://www.wikidata.org/wiki/Property:P1891>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q1143261>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q13353>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q1410>))
@@ -58,12 +68,74 @@ Declaration(AnnotationProperty(dcterms:license))
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000000> "root node"@en)
 
+# Class: <https://www.wikidata.org/wiki/Q132050> (governor)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q132050> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q132050> "2021-07-14T17:52:37Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q132050> "governor")
+
 # Class: <https://www.wikidata.org/wiki/Q161243> (dependent territory)
 
 AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q161243> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q161243> "2021-07-14T17:44:29Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:comment <https://www.wikidata.org/wiki/Q161243> "dependent territory")
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q161243> "dependent territory")
+
+# Class: <https://www.wikidata.org/wiki/Q1788820> (Ministry of defence)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q1788820> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q1788820> "2021-07-14T17:53:29Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q1788820> "Ministry of defence")
+
+# Class: <https://www.wikidata.org/wiki/Q185086> (Crown dependency)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q185086> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q185086> "2021-07-14T17:46:08Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q185086> "Crown dependency")
+SubClassOf(<https://www.wikidata.org/wiki/Q185086> <https://www.wikidata.org/wiki/Q161243>)
+
+# Class: <https://www.wikidata.org/wiki/Q192350> (ministry)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q192350> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q192350> "2021-07-14T17:54:19Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q192350> "ministry")
+
+# Class: <https://www.wikidata.org/wiki/Q417633> (self-governance)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q417633> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q417633> "2021-07-14T17:47:49Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q417633> "self-governance")
+
+# Class: <https://www.wikidata.org/wiki/Q46395> (British Overseas Territories)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q46395> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q46395> "2021-07-14T17:47:03Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q46395> "British Overseas Territories")
+SubClassOf(<https://www.wikidata.org/wiki/Q46395> <https://www.wikidata.org/wiki/Q161243>)
+
+# Class: <https://www.wikidata.org/wiki/Q48352> (head of state)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q48352> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q48352> "2021-07-14T17:54:56Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q48352> "head of state")
+
+# Class: <https://www.wikidata.org/wiki/Q524778> (commissioner)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q524778> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q524778> "2021-07-14T17:49:21Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q524778> "commissioner")
+
+# Class: <https://www.wikidata.org/wiki/Q85776190> (legal process)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q85776190> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q85776190> "2021-07-14T17:56:25Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q85776190> "legal process")
+
+# Class: <https://www.wikidata.org/wiki/Property:P1891> (signatory)
+
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Property:P1891> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Property:P1891> "2021-07-14T17:55:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Property:P1891> "signatory")
 
 
 ############################
