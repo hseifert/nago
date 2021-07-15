@@ -11,12 +11,13 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Ontology(<http://purl.obolibrary.org/obo/nago.owl>
 Import(<http://purl.obolibrary.org/obo/nago/imports/envo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/nago/imports/iao_import.owl>)
-Import(<http://purl.obolibrary.org/obo/nago/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/nago/releases/2021-07-15/imports/ro_import.owl>)
 Annotation(dce:description "None")
 Annotation(dce:title "Nagoya ontology")
 Annotation(dcterms:license "Unspecified")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000009>))
 Declaration(Class(<https://www.wikidata.org/wiki/Q132050>))
 Declaration(Class(<https://www.wikidata.org/wiki/Q161243>))
 Declaration(Class(<https://www.wikidata.org/wiki/Q1788820>))
@@ -28,6 +29,7 @@ Declaration(Class(<https://www.wikidata.org/wiki/Q48352>))
 Declaration(Class(<https://www.wikidata.org/wiki/Q524778>))
 Declaration(Class(<https://www.wikidata.org/wiki/Q85776190>))
 Declaration(Class(<https://www.wikidata.org/wiki/Property:P1891>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/NAGO_00000008>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q1143261>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q13353>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q1410>))
@@ -59,6 +61,17 @@ Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
 Declaration(AnnotationProperty(dcterms:license))
 
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/NAGO_00000008> (administers)
+
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000008> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000008> "2021-07-15T13:20:35Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000008> "administers"@en)
+
+
 
 ############################
 #   Classes
@@ -67,6 +80,13 @@ Declaration(AnnotationProperty(dcterms:license))
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000000> (root node)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000000> "root node"@en)
+
+# Class: <http://purl.obolibrary.org/obo/NAGO_00000009> (territory)
+
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000009> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000009> "2021-07-15T19:32:02Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000009> "territory"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000009> <http://purl.obolibrary.org/obo/ENVO_00000005>)
 
 # Class: <https://www.wikidata.org/wiki/Q132050> (governor)
 
@@ -80,6 +100,7 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q161243> <http://
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q161243> "2021-07-14T17:44:29Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:comment <https://www.wikidata.org/wiki/Q161243> "dependent territory")
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q161243> "dependent territory")
+SubClassOf(<https://www.wikidata.org/wiki/Q161243> <http://purl.obolibrary.org/obo/NAGO_00000009>)
 
 # Class: <https://www.wikidata.org/wiki/Q1788820> (Ministry of defence)
 
@@ -105,6 +126,7 @@ AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q192350> "ministry
 AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q417633> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q417633> "2021-07-14T17:47:49Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q417633> "self-governance")
+SubClassOf(<https://www.wikidata.org/wiki/Q417633> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Class: <https://www.wikidata.org/wiki/Q46395> (British Overseas Territories)
 
@@ -119,17 +141,19 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q48352> <http://o
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q48352> "2021-07-14T17:54:56Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q48352> "head of state")
 
-# Class: <https://www.wikidata.org/wiki/Q524778> (commissioner)
+# Class: <https://www.wikidata.org/wiki/Q524778> (commissioner role)
 
 AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q524778> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q524778> "2021-07-14T17:49:21Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q524778> "commissioner")
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q524778> "commissioner role")
+SubClassOf(<https://www.wikidata.org/wiki/Q524778> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
 # Class: <https://www.wikidata.org/wiki/Q85776190> (legal process)
 
 AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q85776190> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q85776190> "2021-07-14T17:56:25Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q85776190> "legal process")
+SubClassOf(<https://www.wikidata.org/wiki/Q85776190> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Class: <https://www.wikidata.org/wiki/Property:P1891> (signatory)
 
@@ -243,6 +267,9 @@ AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q34497> "St. Helen
 AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q34970383> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q34970383> "2021-07-14T17:36:22Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q34970383> "Nigel Phillips")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://www.wikidata.org/wiki/Q34970383>)
+ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://www.wikidata.org/wiki/Q524778>) <https://www.wikidata.org/wiki/Q34970383>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000008> <https://www.wikidata.org/wiki/Q34970383> <https://www.wikidata.org/wiki/Q35086>)
 
 # Individual: <https://www.wikidata.org/wiki/Q35086> (South Georgia and South Sandwich Islands)
 
