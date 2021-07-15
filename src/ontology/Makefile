@@ -278,7 +278,7 @@ mirror/ro.owl: mirror/ro.trigger
 mirror/ncbitaxon.trigger: $(SRC)
 
 mirror/ncbitaxon.owl: mirror/ncbitaxon.trigger
-        @if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ncbitaxon.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ncbitaxon.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -288,7 +288,7 @@ mirror/ncbitaxon.owl: mirror/ncbitaxon.trigger
 mirror/bfo.trigger: $(SRC)
 
 mirror/bfo.owl: mirror/bfo.trigger
-        @if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bfo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bfo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -298,7 +298,7 @@ mirror/bfo.owl: mirror/bfo.trigger
 mirror/ncit.trigger: $(SRC)
 
 mirror/ncit.owl: mirror/ncit.trigger
-        @if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ncit.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ncit.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
