@@ -93,6 +93,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000009> <http://purl.obolibrar
 AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q132050> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q132050> "2021-07-14T17:52:37Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q132050> "governor")
+SubClassOf(<https://www.wikidata.org/wiki/Q132050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
 
 # Class: <https://www.wikidata.org/wiki/Q161243> (dependent territory)
 
