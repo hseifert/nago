@@ -12,6 +12,7 @@ Ontology(<http://purl.obolibrary.org/obo/nago.owl>
 Import(<http://purl.obolibrary.org/obo/nago/imports/envo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/nago/imports/iao_import.owl>)
 Import(<http://purl.obolibrary.org/obo/nago/releases/2021-07-15/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/nago/releases/2021-07-16/imports/bfo_import.owl>)
 Annotation(dce:description "None")
 Annotation(dce:title "Nagoya ontology")
 Annotation(dcterms:license "Unspecified")
