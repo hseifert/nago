@@ -57,6 +57,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/NAGO_00000029>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/NAGO_00000043>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/NAGO_00000046>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/NAGO_00000056>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000044>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000045>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000047>))
@@ -123,6 +124,12 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/NAGO_00000043> <http://purl.
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000046> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000046> "2021-07-26T13:35:05Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000046> "appointed by"@en)
+
+# Object Property: <http://purl.obolibrary.org/obo/NAGO_00000056> (linked to)
+
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000056> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000056> "2021-08-06T14:52:58Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000056> "linked to"@en)
 
 
 
@@ -480,6 +487,7 @@ AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q13353> "2021-07-14T
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q13353> "Montserrat")
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q13353>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q13353> <https://www.wikidata.org/wiki/Q358834>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q13353> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q1410> (Gibraltar)
 
@@ -488,6 +496,7 @@ AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q1410> "2021-07-14T1
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q1410> "Gibraltar")
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q1410>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q1410> <https://www.wikidata.org/wiki/Q21941952>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q1410> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q145> (United Kingdom)
 
@@ -510,6 +519,7 @@ AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q165783> "2021-07-14
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q165783> "British Antarctic Territory")
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q165783>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q165783> <https://www.wikidata.org/wiki/Q358834>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q165783> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q18221> (Turks and Caicos Islands)
 
@@ -517,6 +527,7 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q18221> <http://o
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q18221> "2021-07-14T12:11:46Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q18221> "Turks and Caicos Islands")
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q18221>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q18221> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q18632134> (Jonathan Sinclair)
 
@@ -554,6 +565,7 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q23635> <http://o
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q23635> "2021-07-14T12:07:48Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q23635> "Bermuda")
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q23635>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q23635> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q25228> (Anguilla)
 
@@ -561,6 +573,7 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q25228> <http://o
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q25228> "2021-07-14T12:06:27Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q25228> "Anguilla"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q25228>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q25228> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q25230> (Bailiwick of Guernsey)
 
@@ -568,6 +581,7 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q25230> <http://o
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q25230> "2021-07-14T12:01:59Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q25230> "Bailiwick of Guernsey"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000033> <https://www.wikidata.org/wiki/Q25230>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q25230> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q25305> (British Virgin Islands)
 
@@ -576,6 +590,7 @@ AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q25305> "2021-07-14T
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q25305> "British Virgin Islands"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q25305>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q25305> <https://www.wikidata.org/wiki/Q37818638>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q25305> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q34497> (St. Helena)
 
@@ -583,6 +598,7 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q34497> <http://o
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q34497> "2021-07-14T12:04:59Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q34497> "St. Helena"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q34497>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q34497> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q34970383> (Nigel Phillips)
 
@@ -598,6 +614,7 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q35086> <http://o
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q35086> "2021-07-14T12:16:12Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q35086> "South Georgia and South Sandwich Islands")
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q35086>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q35086> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q35672> (Pitcairn, Ducie, Henderson and Oeno Islands)
 
@@ -606,6 +623,7 @@ AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q35672> "2021-07-14T
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q35672> "Pitcairn, Ducie, Henderson and Oeno Islands")
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q35672>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q35672> <https://www.wikidata.org/wiki/Q18632134>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q35672> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q358834> (Foreign, Commonwealth and Development Office)
 
@@ -620,6 +638,7 @@ AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q37362> "2021-07-14T
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q37362> "Akrotiri and Dhekelia")
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q37362>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q37362> <https://www.wikidata.org/wiki/Q1143261>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q37362> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q37818638> (Augustus Jaspert)
 
@@ -634,6 +653,7 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q43448> <http://o
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q43448> "2021-07-14T17:30:14Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q43448> "British Indian Ocean Territory")
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q43448>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q43448> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q5785> (Cayman Islands)
 
@@ -642,6 +662,7 @@ AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q5785> "2021-07-14T1
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q5785> "Cayman Islands")
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q5785>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q5785> <https://www.wikidata.org/wiki/Q358834>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q5785> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q785> (Bailiwick of Jersey)
 
@@ -649,6 +670,7 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q785> <http://orc
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q785> "2021-07-14T11:59:34Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q785> "Bailiwick of Jersey"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000033> <https://www.wikidata.org/wiki/Q785>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q785> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q9676> (Isle of Man)
 
@@ -656,6 +678,7 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q9676> <http://or
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q9676> "2021-08-06T14:35:55Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q9676> "Isle of Man"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000033> <https://www.wikidata.org/wiki/Q9676>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q9676> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q18221/> (Falkland Islands)
 
@@ -664,6 +687,7 @@ AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q18221/> "2021-07-14
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q18221/> "Falkland Islands"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q18221/>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q18221/> <https://www.wikidata.org/wiki/Q358834>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q18221/> <https://www.wikidata.org/wiki/Q145>)
 
 
 )
