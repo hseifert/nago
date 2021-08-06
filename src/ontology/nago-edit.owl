@@ -88,7 +88,7 @@ Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q43448>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q5785>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q785>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q9676>))
-Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q18221/NAGO_00000007>))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q18221/>))
 Declaration(AnnotationProperty(dce:date))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
@@ -657,13 +657,13 @@ AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q9676> "2021-08-06T1
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q9676> "Isle of Man"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000033> <https://www.wikidata.org/wiki/Q9676>)
 
-# Individual: <https://www.wikidata.org/wiki/Q18221/NAGO_00000007> (Falkland Islands)
+# Individual: <https://www.wikidata.org/wiki/Q18221/> (Falkland Islands)
 
-AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q18221/NAGO_00000007> <http://orcid.org/0000-0001-9206-1377>)
-AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q18221/NAGO_00000007> "2021-07-14T12:14:09Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q18221/NAGO_00000007> "Falkland Islands"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q18221/NAGO_00000007>)
-ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q18221/NAGO_00000007> <https://www.wikidata.org/wiki/Q358834>)
+AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q18221/> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q18221/> "2021-07-14T12:14:09Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q18221/> "Falkland Islands"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q18221/>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q18221/> <https://www.wikidata.org/wiki/Q358834>)
 
 
 )
