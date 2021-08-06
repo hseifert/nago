@@ -63,6 +63,7 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000045>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000047>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000048>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000049>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000057>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q1143261>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q13353>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q1410>))
@@ -84,7 +85,6 @@ Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q35086>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q35672>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q358834>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q37362>))
-Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q37818638>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q43448>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q5785>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q785>))
@@ -473,6 +473,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000049> "T
 ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://purl.obolibrary.org/obo/NAGO_00000049>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000046> <http://purl.obolibrary.org/obo/NAGO_00000049> <https://www.wikidata.org/wiki/Q21941952>)
 
+# Individual: <http://purl.obolibrary.org/obo/NAGO_00000057> (John Rankin)
+
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000057> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000057> "2021-08-06T18:19:53Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000057> "John Rankin"@en)
+
 # Individual: <https://www.wikidata.org/wiki/Q1143261> (Ministry of Defence UK)
 
 AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q1143261> <http://orcid.org/0000-0001-9206-1377>)
@@ -589,7 +595,7 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q25305> <http://o
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q25305> "2021-07-14T12:13:08Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q25305> "British Virgin Islands"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q25305>)
-ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q25305> <https://www.wikidata.org/wiki/Q37818638>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q25305> <http://purl.obolibrary.org/obo/NAGO_00000057>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q25305> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q34497> (St. Helena)
@@ -639,13 +645,6 @@ AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q37362> "Akrotiri 
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q37362>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q37362> <https://www.wikidata.org/wiki/Q1143261>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q37362> <https://www.wikidata.org/wiki/Q145>)
-
-# Individual: <https://www.wikidata.org/wiki/Q37818638> (Augustus Jaspert)
-
-AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q37818638> <http://orcid.org/0000-0001-9206-1377>)
-AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q37818638> "2021-07-14T17:37:43Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q37818638> "Augustus Jaspert")
-ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://www.wikidata.org/wiki/Q37818638>)
 
 # Individual: <https://www.wikidata.org/wiki/Q43448> (British Indian Ocean Territory)
 
