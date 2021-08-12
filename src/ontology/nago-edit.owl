@@ -595,7 +595,6 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q25305> <http://o
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q25305> "2021-07-14T12:13:08Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q25305> "British Virgin Islands"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000032> <https://www.wikidata.org/wiki/Q25305>)
-ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000029> <https://www.wikidata.org/wiki/Q25305> <http://purl.obolibrary.org/obo/NAGO_00000057>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://www.wikidata.org/wiki/Q25305> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q34497> (St. Helena)
