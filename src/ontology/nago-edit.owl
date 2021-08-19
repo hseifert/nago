@@ -18,6 +18,7 @@ Annotation(dce:description "None")
 Annotation(dce:title "Nagoya ontology")
 Annotation(dcterms:license "Unspecified")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000011>))
@@ -27,7 +28,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000017>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000023>))
@@ -51,13 +51,16 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000050>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000052>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000053>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NAGO_00000070>))
 Declaration(Class(<https://www.wikidata.org/wiki/Q524778>))
-Declaration(Class(<https://www.wikidata.org/wiki/Property:P1891>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/NAGO_00000029>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/NAGO_00000043>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/NAGO_00000046>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/NAGO_00000056>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/NAGO_00000059>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/NAGO_00000060>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000044>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000045>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000047>))
@@ -131,11 +134,31 @@ AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000056> <
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000056> "2021-08-06T14:52:58Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000056> "linked to"@en)
 
+# Object Property: <http://purl.obolibrary.org/obo/NAGO_00000059> (governing)
+
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000059> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000059> "2021-08-13T14:23:47Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000059> "governing"@en)
+
+# Object Property: <http://purl.obolibrary.org/obo/NAGO_00000060> (commissioning)
+
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000060> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000060> "2021-08-13T14:24:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000060> "commissioning"@en)
+
 
 
 ############################
 #   Classes
 ############################
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000104> (plan specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000104> "A directive information entity with action specifications and objective specifications as parts that, when concretized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified."^^xsd:string)
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/IAO_0000104> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/IAO_0000104> "2021-08-12T07:47:52Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000104> "plan specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/BFO_0000003>)
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000000> (root node)
 
@@ -143,11 +166,11 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000000> "r
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000009> (territory)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000009> "A constituent region which is claimed by a particular population of a species"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000009> "An administrative region which is claimed by a particular population of a species."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000009> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000009> "2021-07-15T19:32:02Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000009> "territory"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000009> <http://purl.obolibrary.org/obo/ENVO_00000005>)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000009> <http://purl.obolibrary.org/obo/ENVO_00000004>)
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000011> (external territory)
 
@@ -159,7 +182,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000011> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000012> (sovereign territory)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000012> "A territory which is under the control of sovereign administrative entity."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000012> "A territory which is under the control of the sovereign administrative entity."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000012> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000012> "2021-07-19T12:17:00Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000012> "sovereign territory"@en)
@@ -167,11 +190,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000012> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000013> (commissioning process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000013> "An administrative process during which an individual or group is charged with duties by an authority. Has output: commission"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000013> "A process during which an individual or group is charged with duties by an authority."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000013> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000013> "2021-07-19T12:19:17Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000013> "commissioning process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000013> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NAGO_00000035>))
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000014> (governing process)
 
@@ -181,6 +205,7 @@ AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000014> "202
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/NAGO_00000014> "governance"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000014> "governing process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000014> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NAGO_00000036>))
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000015> (governing role)
 
@@ -200,22 +225,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000016> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000017> (governmental department)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000017> "An organization which is executing authoritative duties for a government.")
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000017> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000017> "2021-07-19T12:22:53Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000017> "governmental department"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000017> <http://purl.obolibrary.org/obo/NAGO_00000039>)
 
-# Class: <http://purl.obolibrary.org/obo/NAGO_00000019> (ministerial department)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000019> "A department which 1) is part of a governing administration, and 2) assists a minister in executing their duties."^^xsd:string)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000019> <http://orcid.org/0000-0001-9206-1377>)
-AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000019> "2021-07-19T12:25:27Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000019> "ministerial department"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000019> <http://purl.obolibrary.org/obo/NAGO_00000038>)
-
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000021> (administrative process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000021> "A process which includes operational planning, organization, execution and control."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000021> "A legal process which includes operational planning, organization, execution and control."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000021> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000021> "2021-07-19T12:28:20Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000021> "administrative process"@en)
@@ -228,7 +246,6 @@ AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000022> <
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000022> "2021-07-19T12:28:33Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000022> "national administrative process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000022> <http://purl.obolibrary.org/obo/NAGO_00000021>)
-SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NAGO_00000019>))
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000023> (signatory process)
 
@@ -236,7 +253,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000023> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000023> "2021-07-19T12:29:31Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000023> "signatory process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000023> <http://purl.obolibrary.org/obo/NAGO_00000041>)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000023> <http://purl.obolibrary.org/obo/NAGO_00000021>)
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000024> (international signatory process)
 
@@ -253,7 +270,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000025> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000025> "2021-07-19T12:32:46Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000025> "protocol"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000025> <http://purl.obolibrary.org/obo/BFO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000025> <http://purl.obolibrary.org/obo/IAO_0000104>)
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000027> (national protocol)
 
@@ -283,7 +300,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000030> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000031> (Overseas territory)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000031> "An external territory which does not possess full political independence."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000031> "An external territory which lies outside the borders of the geographic entity in which its administrative capital lies and which does not possess full political independence."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000031> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000031> "2021-07-23T16:41:14Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000031> "Overseas territory"@en)
@@ -319,7 +336,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000034> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000035> (commissioner)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000035> "A homo sapiens which is a member of a commission or to an individual who has been given a commission, a representative of the supreme authority in an area"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000035> "A homo sapiens which is realizing the commissioning role."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000035> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000035> "2021-07-26T08:42:38Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000035> "commissioner"@en)
@@ -336,12 +353,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000036> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000037> (ministry of defence)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000037> "A ministerial department which is responsible for the armed forces and related agencies"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000037> "A ministry which is responsible for the armed forces and related agencies."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/NAGO_00000037> "https://www.wikidata.org/wiki/Q1788820"^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000037> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000037> "2021-07-14T17:53:29Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000037> "ministry of defence")
-SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000037> <http://purl.obolibrary.org/obo/NAGO_00000019>)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000037> <http://purl.obolibrary.org/obo/NAGO_00000038>)
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000038> (ministry)
 
@@ -358,7 +375,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000038> ObjectSomeValuesFrom(<
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000039> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000039> "2021-07-26T08:49:12Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000039> "organization"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000039> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000039> <http://purl.obolibrary.org/obo/BFO_0000003>)
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000040> (head of state function)
 
@@ -371,16 +388,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000040> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000041> (legal process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000041> "A process which relates to a specific law"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000041> "A planned process which relates to a specific law"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/NAGO_00000041> "https://www.wikidata.org/wiki/Q85776190"^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000041> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000041> "2021-07-14T17:56:25Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000041> "legal process")
-SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000041> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000041> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000050> (head of state)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000050> "An official who holds the highest-ranked executive position in a sovereign state"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000050> "A homo spaiens which holds the highest-ranked executive position in a sovereign state."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000050> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000050> "2021-08-02T10:53:42Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000050> "head of state"@en)
@@ -390,15 +407,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000050> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000052> (Nagoya Protocol signatory)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000052> "A signatory which has signed the Nagoya Protocol."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000052> "A homo sapiens which is realizing the signatory role for the Nagoya Protocol."@en)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000052> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000052> "2021-08-02T11:32:03Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000052> "Nagoya Protocol signatory"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000052> <https://www.wikidata.org/wiki/Property:P1891>)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000052> <http://purl.obolibrary.org/obo/NAGO_00000070>)
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000053> (Minister of Foreign Affairs)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000053> "A homo sapiens who is the highest ranked official in the ministry of Foreign Affairs."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000053> "A homo sapiens which is the highest ranked official in the ministry of Foreign Affairs."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000053> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000053> "2021-08-05T06:37:17Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000053> "Minister of Foreign Affairs"@en)
@@ -406,11 +423,27 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000053> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000054> (head of government)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000054> "A highest ranked official of the government."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000054> "A homo sapiens which is the highest ranked official of the government."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000054> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000054> "2021-08-05T06:38:02Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000054> "head of government"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000054> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+
+# Class: <http://purl.obolibrary.org/obo/NAGO_00000061> (signatory role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000061> "A role which is realized during thesignatory process."^^xsd:string)
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000061> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000061> "2021-08-19T13:07:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000061> "signatory role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000061> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/NAGO_00000070> (signatory)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000070> "A homo sapiens which is realizing the signatory role."^^xsd:string)
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000070> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000070> "2021-07-14T17:55:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000070> "signatory")
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000070> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
 
 # Class: <https://www.wikidata.org/wiki/Q524778> (commissioning role)
 
@@ -419,12 +452,6 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q524778> <http://
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q524778> "2021-07-14T17:49:21Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q524778> "commissioning role")
 SubClassOf(<https://www.wikidata.org/wiki/Q524778> <http://purl.obolibrary.org/obo/BFO_0000023>)
-
-# Class: <https://www.wikidata.org/wiki/Property:P1891> (signatory)
-
-AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Property:P1891> <http://orcid.org/0000-0001-9206-1377>)
-AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Property:P1891> "2021-07-14T17:55:42Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Property:P1891> "signatory")
 
 
 ############################
@@ -456,6 +483,8 @@ AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000047> <
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000047> "2021-07-26T15:30:07Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000047> "commissioner of South Georgia and South Sandwich Islands"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000035> <http://purl.obolibrary.org/obo/NAGO_00000047>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/NAGO_00000047> <https://www.wikidata.org/wiki/Q34970383>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000060> <http://purl.obolibrary.org/obo/NAGO_00000047> <https://www.wikidata.org/wiki/Q35086>)
 
 # Individual: <http://purl.obolibrary.org/obo/NAGO_00000048> (governor of Falkland Islands)
 
@@ -463,6 +492,8 @@ AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000048> <
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000048> "2021-07-26T15:31:58Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000048> "governor of Falkland Islands"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000036> <http://purl.obolibrary.org/obo/NAGO_00000048>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/NAGO_00000048> <https://www.wikidata.org/wiki/Q34970383>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000059> <http://purl.obolibrary.org/obo/NAGO_00000048> <https://www.wikidata.org/wiki/Q18221/>)
 
 # Individual: <http://purl.obolibrary.org/obo/NAGO_00000049> (Tony Crombie)
 
@@ -555,8 +586,8 @@ ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000028> <https://www.wikid
 AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q21941952> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q21941952> "2021-07-14T17:34:57Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q21941952> "the Crown")
-ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000019> <https://www.wikidata.org/wiki/Q21941952>)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000040> <https://www.wikidata.org/wiki/Q21941952>)
+ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000050> <https://www.wikidata.org/wiki/Q21941952>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0000087> <https://www.wikidata.org/wiki/Q21941952> <http://purl.obolibrary.org/obo/NAGO_00000045>)
 
 # Individual: <https://www.wikidata.org/wiki/Q220982> (Tristan da Cunha)
