@@ -16,8 +16,10 @@ NagO is built in compliance with the [OBO Foundry principles](http://www.obofoun
 
 ### Versions ###
 
-For the versions available see the tag list on this repository.
+For the stable versions available see the tag list on this repository.
 
+##### Editors' version #####
+Editors of this ontology should use the edit version [here](src/ontology/nago-edit.owl).
 
 ### Authors ###
 
@@ -30,3 +32,8 @@ For the versions available see the tag list on this repository.
 ### License ###
  
 This project is licensed under XXXX - see the LICENSE.md file for details.
+
+
+
+### Contact ###
+Please use this [GitHub repository's Issue tracker](https://github.com/hseifert/nago/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
