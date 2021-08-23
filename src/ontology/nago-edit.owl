@@ -67,6 +67,7 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000047>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000048>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000049>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000057>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/NAGO_00000062>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q1143261>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q13353>))
 Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q1410>))
@@ -111,12 +112,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000054> "rea
 
 # Object Property: <http://purl.obolibrary.org/obo/NAGO_00000029> (administered by)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000029> "A relationship between two entities in which an active entity a is carrying out one or more administrative activities directed at a passive entity b."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000029> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000029> "2021-07-23T12:35:44Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000029> "administered by"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/NAGO_00000043> (executing)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000043> "A relationship between an active agent a and a concept b in which agent a is carrying out b."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000043> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000043> "2021-07-26T13:15:46Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000043> "executing"@en)
@@ -124,24 +127,28 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/NAGO_00000043> <http://purl.
 
 # Object Property: <http://purl.obolibrary.org/obo/NAGO_00000046> (appointed by)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000046> "A relationship between two entities a and b in which b is specifically selected and delegated by a for realizing a certain role."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000046> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000046> "2021-07-26T13:35:05Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000046> "appointed by"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/NAGO_00000056> (linked to)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000056> "A relationship between two or more entities in which the entities are thematically connected to each other."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000056> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000056> "2021-08-06T14:52:58Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000056> "linked to"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/NAGO_00000059> (governing)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000059> "A relationship between an active agent a and an entity b in which a is realizing the governing role specifically on b."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000059> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000059> "2021-08-13T14:23:47Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000059> "governing"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/NAGO_00000060> (commissioning)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000060> "A relationship between an active agent a and an entity b in which a is realizing the commissioning role specifically on b."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000060> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000060> "2021-08-13T14:24:00Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000060> "commissioning"@en)
@@ -482,6 +489,7 @@ ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000054> <http://pur
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000047> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000047> "2021-07-26T15:30:07Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000047> "commissioner of South Georgia and South Sandwich Islands"@en)
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/NAGO_00000047> "https://www.gov.uk/government/people/nigel-phillips"^^xsd:string)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000035> <http://purl.obolibrary.org/obo/NAGO_00000047>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/NAGO_00000047> <https://www.wikidata.org/wiki/Q34970383>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000060> <http://purl.obolibrary.org/obo/NAGO_00000047> <https://www.wikidata.org/wiki/Q35086>)
@@ -491,6 +499,7 @@ ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000060> <http://p
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000048> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000048> "2021-07-26T15:31:58Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000048> "governor of Falkland Islands"@en)
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/NAGO_00000048> "https://www.gov.uk/government/people/nigel-phillips"^^xsd:string)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000036> <http://purl.obolibrary.org/obo/NAGO_00000048>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/NAGO_00000048> <https://www.wikidata.org/wiki/Q34970383>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000059> <http://purl.obolibrary.org/obo/NAGO_00000048> <https://www.wikidata.org/wiki/Q18221/>)
@@ -509,6 +518,13 @@ ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000046> <http://p
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000057> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000057> "2021-08-06T18:19:53Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000057> "John Rankin"@en)
+
+# Individual: <http://purl.obolibrary.org/obo/NAGO_00000062> (Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising from their Utilization)
+
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000062> <http://orcid.org/0000-0001-9206-1377>)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000062> "2021-08-23T10:26:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000062> "Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising from their Utilization"@en)
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/NAGO_00000062> "https://www.cbd.int/abs/about/"^^xsd:string)
 
 # Individual: <https://www.wikidata.org/wiki/Q1143261> (Ministry of Defence UK)
 
@@ -579,7 +595,10 @@ ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000046> <https://
 AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q1963613> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q1963613> "2021-07-14T17:40:00Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q1963613> "Nagoya Protocol")
+AnnotationAssertion(rdfs:seeAlso <https://www.wikidata.org/wiki/Q1963613> "https://absch.cbd.int/"^^xsd:string)
+AnnotationAssertion(rdfs:seeAlso <https://www.wikidata.org/wiki/Q1963613> "https://www.cbd.int/abs/"^^xsd:string)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000028> <https://www.wikidata.org/wiki/Q1963613>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <https://www.wikidata.org/wiki/Q1963613> <http://purl.obolibrary.org/obo/NAGO_00000062>)
 
 # Individual: <https://www.wikidata.org/wiki/Q21941952> (the Crown)
 
@@ -641,6 +660,7 @@ ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/NAGO_00000056> <https://
 AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q34970383> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q34970383> "2021-07-14T17:36:22Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q34970383> "Nigel Phillips")
+AnnotationAssertion(rdfs:seeAlso <https://www.wikidata.org/wiki/Q34970383> "https://www.gov.uk/government/people/nigel-phillips"^^xsd:string)
 ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://www.wikidata.org/wiki/Q34970383>)
 ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://www.wikidata.org/wiki/Q524778>) <https://www.wikidata.org/wiki/Q34970383>)
 
