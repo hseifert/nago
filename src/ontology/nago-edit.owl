@@ -343,7 +343,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000034> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000035> (commissioner)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000035> "A homo sapiens which is realizing the commissioning role."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000035> "A human which is realizing the commissioning role."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000035> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000035> "2021-07-26T08:42:38Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000035> "commissioner"@en)
@@ -351,7 +351,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000035> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000036> (governor)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000036> "A homo sapiens which is realizing the governing role"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000036> "A human which is realizing the governing role"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/NAGO_00000036> "https://www.wikidata.org/wiki/Q132050"^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000036> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000036> "2021-07-14T17:52:37Z"^^xsd:dateTime)
@@ -404,7 +404,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000041> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000050> (head of state)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000050> "A homo spaiens which holds the highest-ranked executive position in a sovereign state."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000050> "A human which holds the highest-ranked executive position in a sovereign state."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000050> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000050> "2021-08-02T10:53:42Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000050> "head of state"@en)
@@ -422,7 +422,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000052> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000053> (Minister of Foreign Affairs)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000053> "A homo sapiens which is the highest ranked official in the ministry of Foreign Affairs."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000053> "A human which is the highest ranked official in the ministry of Foreign Affairs."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000053> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000053> "2021-08-05T06:37:17Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000053> "Minister of Foreign Affairs"@en)
@@ -430,7 +430,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000053> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000054> (head of government)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000054> "A homo sapiens which is the highest ranked official of the government."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000054> "A human which is the highest ranked official of the government."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000054> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000054> "2021-08-05T06:38:02Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000054> "head of government"@en)
@@ -443,14 +443,16 @@ AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000061> <
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000061> "2021-08-19T13:07:42Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000061> "signatory role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000061> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/NAGO_00000023>))
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000070> (signatory)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000070> "A homo sapiens which is realizing the signatory role."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NAGO_00000070> "A human which realizes a signatory role."^^xsd:string)
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000070> <http://orcid.org/0000-0001-9206-1377>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000070> "2021-07-14T17:55:42Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000070> "signatory")
 SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000070> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/NAGO_00000023>))
 
 # Class: <https://www.wikidata.org/wiki/Q524778> (commissioning role)
 
@@ -557,7 +559,6 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q145> <http://orc
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q145> "2021-07-14T17:32:47Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q145> "United Kingdom")
 ClassAssertion(<http://purl.obolibrary.org/obo/ENVO_00000005> <https://www.wikidata.org/wiki/Q145>)
-ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000052> <https://www.wikidata.org/wiki/Q145>)
 
 # Individual: <https://www.wikidata.org/wiki/Q16140777> (Governor of the Falkland Islands)
 
