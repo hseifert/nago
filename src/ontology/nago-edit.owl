@@ -242,6 +242,8 @@ AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000015> <
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000015> "2021-07-19T12:20:21Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000015> "governing role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000015> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/NAGO_00000014>))
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/NAGO_00000036>))
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000016> (governing administration)
 
@@ -466,6 +468,7 @@ AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000061> "202
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000061> "signatory role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000061> <http://purl.obolibrary.org/obo/BFO_0000023>)
 SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/NAGO_00000023>))
+SubClassOf(<http://purl.obolibrary.org/obo/NAGO_00000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/NAGO_00000070>))
 
 # Class: <http://purl.obolibrary.org/obo/NAGO_00000063> (government)
 
@@ -508,6 +511,8 @@ AnnotationAssertion(dce:creator <https://www.wikidata.org/wiki/Q524778> <http://
 AnnotationAssertion(dce:date <https://www.wikidata.org/wiki/Q524778> "2021-07-14T17:49:21Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://www.wikidata.org/wiki/Q524778> "commissioning role")
 SubClassOf(<https://www.wikidata.org/wiki/Q524778> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<https://www.wikidata.org/wiki/Q524778> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/NAGO_00000013>))
+SubClassOf(<https://www.wikidata.org/wiki/Q524778> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/NAGO_00000035>))
 
 
 ############################
