@@ -525,9 +525,7 @@ AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/NAGO_00000044> <
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/NAGO_00000044> "2021-07-26T13:30:36Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NAGO_00000044> "Nagoya Protcol signatory process"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/NAGO_00000024> <http://purl.obolibrary.org/obo/NAGO_00000044>)
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NAGO_00000050>) <http://purl.obolibrary.org/obo/NAGO_00000044>)
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NAGO_00000053>) <http://purl.obolibrary.org/obo/NAGO_00000044>)
-ClassAssertion(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NAGO_00000054>) <http://purl.obolibrary.org/obo/NAGO_00000044>)
+ClassAssertion(ObjectUnionOf(<http://purl.obolibrary.org/obo/NAGO_00000053> <http://purl.obolibrary.org/obo/NAGO_00000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NAGO_00000054>)) <http://purl.obolibrary.org/obo/NAGO_00000044>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NAGO_00000044> <https://www.wikidata.org/wiki/Q1963613>)
 
 # Individual: <http://purl.obolibrary.org/obo/NAGO_00000045> (Nagoya Protocol signatory role)
