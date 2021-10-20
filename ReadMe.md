@@ -29,11 +29,5 @@ Editors of this ontology should use the edit version [here](src/ontology/nago-ed
  * Ivaylo Kostadinov
 
 
-### License ###
- 
-This project is licensed under XXXX - see the LICENSE.md file for details.
-
-
-
 ### Contact ###
 Please use this [GitHub repository's Issue tracker](https://github.com/hseifert/nago/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
